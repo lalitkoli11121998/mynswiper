@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/close" android:title="close App"/>
+    <item android:id="@+id/reset" android:title="Reset"/>
+    <item android:id="@+id/see" android:title="show last 5 result"/>
+    <item android:title="Size" >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:title="8X8" android:id="@+id/eight" android:checked="true"/>
+                <item android:title="9X9" android:id="@+id/nine"/>
+                <item android:title="10X10" android:id="@+id/ten"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

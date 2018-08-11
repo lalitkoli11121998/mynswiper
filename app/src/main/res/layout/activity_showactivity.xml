@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.mynswiper.showactivity">
+
+
+    <TextView
+        android:id="@+id/t_one"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t_two"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t_three"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:textSize="50dp"
+        android:id="@+id/t_four"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TextView" />
+
+    <TextView
+        android:textSize="50dp"
+        android:id="@+id/t_five"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="TextView" />\
+
+</LinearLayout>
